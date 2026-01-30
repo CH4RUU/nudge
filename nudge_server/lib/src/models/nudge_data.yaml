@@ -1,0 +1,9 @@
+class: NudgeData
+table: nudge_data
+fields:
+  category: String # INTEL, ASSET, WATER, TASK, GHOST, SOCIAL
+  title: String    # The name/description
+  link: String?    # For Intel Guard URLs
+  expiry: DateTime? # For Asset/Task deadlines
+  isDone: bool 
+  
