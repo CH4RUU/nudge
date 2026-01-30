@@ -69,7 +69,7 @@ This is the flagship **"save-point"** feature. Before you "pause," you snap a ph
 | ghost focus | context capsule |
 |:--:|:--:|
 | ![Context Capsule](s1.png) | ![Asset Vault](s2.png) |
-| *Visual memory restore for your brain* | *Your physical world, archived* |
+|  | |
 
 ---
 
