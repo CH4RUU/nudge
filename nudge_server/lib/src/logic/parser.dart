@@ -5,15 +5,18 @@ import 'package:serverpod/serverpod.dart';
 class NudgeParser {
   static const _apiKey = 'AIzaSyBssamC2Bx5vm_STP1GsBmCBoT88e8ipZQ';
 
-  static Future<Map<String, dynamic>> analyze(String input, Session session) async {
+  static Future<Map<String, dynamic>> analyze(
+    String input,
+    Session session,
+  ) async {
     try {
       final model = GenerativeModel(
-        model: 'gemini-3-flash-preview', 
+        model: 'gemini-3-flash-preview',
         apiKey: _apiKey,
       );
-      
 
-final prompt = '''
+      final prompt =
+          '''
 Extract intent from: "$input"
 Categories: TASK, GHOST, ASSET, CAPSULE, INTEL.
 
@@ -39,7 +42,7 @@ CRITICAL: For TASK, GHOST, and ASSET, the "delay" MUST be a raw number.
 Format: {"type": "CATEGORY", "val": "value", "delay": "delay_value"}
 ''';
       final response = await model.generateContent([Content.text(prompt)]);
-      
+
       if (response.text == null) throw Exception("AI response empty");
 
       session.log("GEMINI SUCCESS: ${response.text}");
@@ -48,16 +51,17 @@ Format: {"type": "CATEGORY", "val": "value", "delay": "delay_value"}
           .replaceAll('```json', '')
           .replaceAll('```', '')
           .trim();
-          
-      return jsonDecode(cleanJson);
 
+      return jsonDecode(cleanJson);
     } catch (e) {
       session.log("AI FAILURE: $e", level: LogLevel.error);
       session.log("AI FAILURE (Quota?): $e", level: LogLevel.error);
-      
+
       // MASTER FALLBACK: If AI fails, we do a manual check so the demo doesn't die
       String inputLower = input.toLowerCase();
-      if (inputLower.contains('remind') || inputLower.contains('call') || inputLower.contains('do')) {
+      if (inputLower.contains('remind') ||
+          inputLower.contains('call') ||
+          inputLower.contains('do')) {
         return {'type': 'TASK', 'val': input, 'delay': 1};
       } else if (inputLower.contains('focus') || inputLower.contains('work')) {
         return {'type': 'GHOST', 'val': input, 'delay': 25};
