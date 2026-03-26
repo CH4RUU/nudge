@@ -1,22 +1,50 @@
 <div align="center">
 
-# 🎩 Nudge: The Flutter Butler
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Top%20Hat.png" alt="Butler Hat" width="120" />
+
+# NUDGE
+
+### 🎩 The Flutter Butler for Cognitive Protection
+
+<br/>
+
 > **"Focus is fragile. The Butler protects it."**
 
-[![Serverpod](https://img.shields.io/badge/Serverpod-3.0-blue?style=for-the-badge&logo=dart)](https://serverpod.dev/)
-[![Flutter](https://img.shields.io/badge/Flutter-3.0-02569B?style=for-the-badge&logo=flutter)](https://flutter.dev/)
-[![Gemini AI](https://img.shields.io/badge/AI-Gemini_1.5_Flash-8E75B2?style=for-the-badge&logo=google)](https://deepmind.google/technologies/gemini/)
+<br/>
+
+[![Serverpod](https://img.shields.io/badge/Serverpod-3.0-6C63FF?style=for-the-badge&logo=dart&logoColor=white)](https://serverpod.dev/)
+[![Flutter](https://img.shields.io/badge/Flutter-3.0-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
+[![Gemini AI](https://img.shields.io/badge/Gemini-1.5_Flash-8E75B2?style=for-the-badge&logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgresql.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-<h3>
-  <a href="https://my-nudge.serverpod.space/">🚀 Live Demo</a>
-  <span> | </span>
-  <a href="https://youtube.com/shorts/-NqXRqagi6U?feature=share">📺 Watch Video</a>
-</h3>
+<br/>
+
+<p>
+  <img src="https://img.shields.io/badge/Platform-Android%20|%20iOS%20|%20Web-success?style=flat-square" alt="Platform"/>
+  <img src="https://img.shields.io/badge/Architecture-Single_Language_Monolith-blue?style=flat-square" alt="Architecture"/>
+  <img src="https://img.shields.io/badge/Status-Hackathon_Prototype-orange?style=flat-square" alt="Status"/>
+</p>
+
+<br/>
+
+<a href="https://my-nudge.serverpod.space/">
+  <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Click_Here-FF6B6B?style=for-the-badge&logoColor=white" alt="Live Demo"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://youtube.com/shorts/-NqXRqagi6U?feature=share">
+  <img src="https://img.shields.io/badge/📺_VIDEO_DEMO-Watch_Now-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Video Demo"/>
+</a>
+
+<br/><br/>
+
+**🧠 Cognitive Partner** &nbsp;•&nbsp; **⚡ Intent Engine** &nbsp;•&nbsp; **👻 Focus Guardian** &nbsp;•&nbsp; **📦 Asset Vault**
+
+<br/>
 
 </div>
 
----
+
 
 ## 📖 Table of Contents
 - [Inspiration](#-inspiration)
@@ -98,6 +126,30 @@ The Flutter application serves as the **"Senses"** of the Butler:
 * **Serverpod Cloud:** Deployed using `scloud`, providing a global, SSL-secured API endpoint.
 
 ---
+## ✨ Core Features
+
+<table>
+<tr>
+<td align="center" width="25%">
+<b>🧠 Intent Engine</b><br/>
+<sub>AI classifies your input as Task, Asset, Intel, or Focus Mode</sub>
+</td>
+<td align="center" width="25%">
+<b>⚡ Smart Tasks</b><br/>
+<sub>Natural language → precise timestamps</sub>
+</td>
+<td align="center" width="25%">
+<b>📦 Asset Vault</b><br/>
+<sub>Track warranties & physical items</sub>
+</td>
+<td align="center" width="25%">
+<b>👻 Ghost Mode</b><br/>
+<sub>Visual focus isolation overlay</sub>
+</td>
+</tr>
+</table>
+
+---
 
 ## 🧗 Challenges & Learnings
 
@@ -155,7 +207,152 @@ As a hackathon prototype, we prioritize transparency:
 * **Emergency SOS:** Automatically trigger an email to a trusted contact if the Butler detects complete inactivity during a high-stakes mission.
 * **Automated Asset OCR:** Implementing **Google ML Kit** to scan physical receipts directly into the **Asset Vault**.
 * **Voice-First Interaction:** Implementing **Speech-to-Text** so you can "whisper" a mission to your Butler.
+## 🚀 What's Next for NUDGE
 
+<br/>
+
+<div align="center">
+
+### Development Roadmap
+
+</div>
+
+<br/>
+
+<table>
+<tr>
+<td align="center" width="33%">
+<h3>🔮 Phase 1</h3>
+<b>Immediate Priorities</b>
+</td>
+<td align="center" width="33%">
+<h3>🌟 Phase 2</h3>
+<b>Near Future</b>
+</td>
+<td align="center" width="33%">
+<h3>🚀 Phase 3</h3>
+<b>Long-term Vision</b>
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**🎤 Voice-First Interaction**
+<br/>
+<sub>Implement Speech-to-Text so you can "whisper" a mission to your Butler</sub>
+
+<br/>
+
+**📱 Automated Asset OCR**
+<br/>
+<sub>Use Google ML Kit to scan physical receipts directly into the Asset Vault</sub>
+
+<br/>
+
+**💧 Hydration Intelligence**
+<br/>
+<sub>Managed 3-hour water cycle using Serverpod's background scheduling</sub>
+
+</td>
+<td valign="top">
+
+**👥 Social Sentry**
+<br/>
+<sub>Monitor interaction patterns and trigger "Connection Alarms" for isolation</sub>
+
+<br/>
+
+**📚 Bookmark Librarian**
+<br/>
+<sub>Serverpod Browser Extension to sync bookmarks and suggest reading</sub>
+
+<br/>
+
+**🆘 Emergency SOS**
+<br/>
+<sub>Auto-trigger email to trusted contacts on inactivity during high-stakes missions</sub>
+
+</td>
+<td valign="top">
+
+**🧠 Predictive Context**
+<br/>
+<sub>AI anticipates your next move based on patterns</sub>
+
+<br/>
+
+**🤝 Team Capsules**
+<br/>
+<sub>Share context with collaborators for seamless handoffs</sub>
+
+<br/>
+
+**📊 Flow Analytics**
+<br/>
+<sub>Deep work pattern insights and productivity metrics</sub>
+
+</td>
+</tr>
+</table>
+
+---
+
+<br/>
+
+<div align="center">
+
+## 🏆 Built for Serverpod 3 Global Hackathon
+
+<br/>
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mobile%20Phone.png" width="50"/>
+<br/><br/>
+<b>📱 Mobile</b>
+</td>
+<td align="center" width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" width="50"/>
+<br/><br/>
+<b>📈 Productivity</b>
+</td>
+<td align="center" width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Light%20Bulb.png" width="50"/>
+<br/><br/>
+<b>💡 Lifehacks</b>
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
+
+### 🙏 Acknowledgments
+
+<br/>
+
+**Serverpod Team** &nbsp;•&nbsp; **Google AI (Gemini)** &nbsp;•&nbsp; **Flutter Community**
+
+<br/>
+
+---
+
+<br/>
+
+<sub>Made with 🧠 + ☕ + 💙 during a caffeinated hackathon weekend</sub>
+
+<br/>
+
+[![Star this repo](https://img.shields.io/badge/⭐_Star_This_Repo-If_It_Helped!-yellow?style=for-the-badge)](https://github.com/yourusername/nudge)
+[![Follow](https://img.shields.io/badge/👤_Follow-For_Updates-blue?style=for-the-badge)](https://github.com/yourusername)
+
+<br/>
+
+---
 ---
 <div align="center">
 
